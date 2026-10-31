@@ -1,0 +1,9 @@
+__pycache__/
+*.egg-info/
+.venv/
+*.pt
+runs/
+data/
+*.mp4
+*.mov
+*.npz

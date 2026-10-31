@@ -1,0 +1,50 @@
+{
+  "name": "park expert prior (hand-set, replace with a pose-derived reference)",
+  "discipline": "park",
+  "source": "hand-set prior from coaching literature; approximate, frontal-view 2D",
+  "clips": [],
+  "features": {
+    "apex_knee_flex": {
+      "p10": 40,
+      "p25": 50.0,
+      "p50": 60,
+      "p75": 72.5,
+      "p90": 85
+    },
+    "apex_hip_flex": {
+      "p10": 30,
+      "p25": 40.0,
+      "p50": 50,
+      "p75": 62.5,
+      "p90": 75
+    },
+    "apex_stance_width": {
+      "p10": 0.3,
+      "p25": 0.4,
+      "p50": 0.5,
+      "p75": 0.625,
+      "p90": 0.75
+    },
+    "apex_knee_ankle_ratio": {
+      "p10": 0.85,
+      "p25": 0.925,
+      "p50": 1.0,
+      "p75": 1.075,
+      "p90": 1.15
+    },
+    "mean_hand_height": {
+      "p10": 0.0,
+      "p25": 0.15,
+      "p50": 0.3,
+      "p75": 0.45,
+      "p90": 0.6
+    },
+    "mean_hand_spread": {
+      "p10": 1.3,
+      "p25": 1.55,
+      "p50": 1.8,
+      "p75": 2.15,
+      "p90": 2.5
+    }
+  }
+}

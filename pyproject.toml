@@ -1,0 +1,26 @@
+[project]
+name = "skibidi-instructor"
+version = "0.1.0"
+description = "Ski technique analysis from video: pose extraction, biomechanics, expert comparison, coaching report"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "opencv-python-headless",
+  "ultralytics",
+  "matplotlib",
+  "anthropic",
+]
+
+[project.optional-dependencies]
+scrape = ["yt-dlp"]
+dev = ["pytest"]
+
+[project.scripts]
+skibidi = "skibidi.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["skibidi"]

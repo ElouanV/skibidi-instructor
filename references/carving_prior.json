@@ -1,0 +1,85 @@
+{
+  "name": "carving expert prior (hand-set, replace with a pose-derived reference)",
+  "discipline": "carving",
+  "source": "hand-set prior from coaching literature; approximate, frontal-view 2D",
+  "clips": [],
+  "features": {
+    "peak_inclination": {
+      "p10": 25,
+      "p25": 32.5,
+      "p50": 40,
+      "p75": 47.5,
+      "p90": 55
+    },
+    "apex_angulation": {
+      "p10": 8,
+      "p25": 13.0,
+      "p50": 18,
+      "p75": 24.0,
+      "p90": 30
+    },
+    "apex_knee_flex": {
+      "p10": 35,
+      "p25": 45.0,
+      "p50": 55,
+      "p75": 67.5,
+      "p90": 80
+    },
+    "apex_hip_flex": {
+      "p10": 30,
+      "p25": 40.0,
+      "p50": 50,
+      "p75": 62.5,
+      "p90": 75
+    },
+    "apex_shoulder_drop": {
+      "p10": -10,
+      "p25": -6.0,
+      "p50": -2,
+      "p75": 1.5,
+      "p90": 5
+    },
+    "apex_stance_width": {
+      "p10": 0.35,
+      "p25": 0.45,
+      "p50": 0.55,
+      "p75": 0.675,
+      "p90": 0.8
+    },
+    "apex_knee_ankle_ratio": {
+      "p10": 0.85,
+      "p25": 0.925,
+      "p50": 1.0,
+      "p75": 1.075,
+      "p90": 1.15
+    },
+    "extension_range": {
+      "p10": 0.08,
+      "p25": 0.115,
+      "p50": 0.15,
+      "p75": 0.2,
+      "p90": 0.25
+    },
+    "mean_hand_height": {
+      "p10": 0.0,
+      "p25": 0.125,
+      "p50": 0.25,
+      "p75": 0.375,
+      "p90": 0.5
+    },
+    "mean_hand_spread": {
+      "p10": 1.2,
+      "p25": 1.4,
+      "p50": 1.6,
+      "p75": 1.9,
+      "p90": 2.2
+    },
+    "duration_s": {
+      "p10": 0.8,
+      "p25": 1.05,
+      "p50": 1.3,
+      "p75": 1.65,
+      "p90": 2.0
+    }
+  }
+}
